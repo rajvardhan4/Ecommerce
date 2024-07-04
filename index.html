@@ -1,3 +1,282 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>PROJECT OF FIGMA</title>
+    <style type="text/css">
+      .nav-link {
+        font-size: 14px;
+        color: #2e2e2e;
+        font-family: Poppins !important;
+      }
+
+      .loginbutton {
+        width: 85px;
+        height: 33px;
+        color: white;
+        background-color: #db2934;
+        border: 0;
+      }
+
+      .middalcontant {
+        background-color: bisque;
+      }
+
+      .heading {
+        font-size: 6rem;
+        font-family: math;
+        line-height: 1.2;
+      }
+
+      .para {
+        font-size: 13px;
+        font-family: Poppins;
+        color: #545454;
+      }
+
+      .shopnow {
+        width: 108px;
+        height: 33px;
+        color: rgb(255, 255, 255);
+        background-color: #db2934;
+        border: 0;
+      }
+
+      .Category {
+        width: 108px;
+        height: 33px;
+        color: #000000;
+        background-color: #ffffff;
+        border: 0;
+        font-family: Poppins;
+      }
+
+      .filpimg {
+        width: 50px;
+        height: 30px;
+      }
+
+      .amaimg {
+        width: 50px;
+        height: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand m-0" href="#">
+              <img src="image/logo.png " class="img-fluid" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >MENU</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">LOCATIONs</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link active" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">CONTACT</a>
+                </li>
+              </ul>
+              <form class="d-flex me-5">
+                <button
+                  type="button"
+                  class="btn btn-danger container loginbutton"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  LOGIN
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button
+                  type="button"
+                  class="btn-close xbutton"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"
+                      >Email address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                    <div id="emailHelp" class="form-text">
+                      We'll never share your email with anyone else.
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Password</label>
+                    <div class="input-group mb-3">
+                      <input
+                        class="form-control password"
+                        id="password"
+                        class="block mt-1 w-full"
+                        type="password"
+                        name="password"
+                        required
+                      />
+
+                      <span
+                        class="input-group-text togglePassword"
+                        id="password"
+                      >
+                        <i data-feather="eye" data-bs-content="">
+                          <i class="fa-solid fa-eye-slash"></i>
+                        </i>
+                      </span>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- section 1 started -->
+        <section>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="row">
+                <div class="col-12 col-lg-12 heading fw-bold text-break lh-1.2">
+                  YOUR FEET DESERVE THE BEST
+                </div>
+                <div class="col-12 col-lg-12">
+                  <div class="col-lg-8 para ms-4 mt-2">
+                    YOUR FEET DESERVE THE BEST AND WE’RE HERE TO YOU WITH OUR
+                    SHOES.YOU FEET DESERVE THE BESWE’RE HERE TO HELP YOU WITH
+                    OUR SHOES.
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-6 col-md-3 mt-4">
+                    <button type="button" class="btn shopnow">SHOP NOW</button>
+                  </div>
+                  <div class="col-6 col-md-9 mt-4">
+                    <button
+                      type="button"
+                      class="btn bg-dark text-white Category"
+                    >
+                      Category
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div
+                    class="col-3 col-md-1 mt-3 ms-3"
+                    style="width: 50px; height: 50px"
+                  >
+                    <a href="https://www.flipkart.com/">
+                      <img
+                        src="image/flipkart.png"
+                        class="img-fluid filpimg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div
+                    class="col-3 col-md-1 mt-4 ms-2"
+                    style="width: 50px; height: 50px"
+                  >
+                    <a
+                      href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjyo7_DutSAAxUXmWYCHSAkBcsYABAAGgJzbQ&gclid=Cj0KCQjwuNemBhCBARIsADp74QT8Wl59zlYOvy0SsYHEZfBKGf35_VgeZFdG0k0ktoMNOm20JD1ZVHIaAmzyEALw_wcB&ohost=www.google.com&cid=CAESauD2T2CyOfn0SrjPdiY7bjCcuGQ58jFPV62QlJK14_l7VAXwk_QnG4BGn3eJpImOh212EEycmyEEbvHGdGJgLnyKSErlSkcBE-M7tjl7TMbKbSB78YvU2ZuPjwm1b_sjmJ37MHk980V3xRU&sig=AOD64_1EH2DYxPO78zSoXiEh5QmsNFuH3w&q&adurl&ved=2ahUKEwisuLjDutSAAxWtyzgGHdBsCbgQ0Qx6BAgGEAE"
+                    >
+                      <img
+                        src="image/amazon.png"
+                        class="img-fluid amaimg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 shoeimg">
+              <img
+                src="image/shoe_image.png"
+                class="img-fluid mt-5 ms-4"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- section 1 closed -->
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+=======
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -275,3 +554,4 @@
     ></script>
   </body>
 </html>
+>>>>>>> origin/main
